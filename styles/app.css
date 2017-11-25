@@ -1,0 +1,118 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+* {
+    position: relative;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.quote-box {
+    width: 700px;
+    margin: 0 auto;
+}
+
+.quote {
+    margin-top: 160px;
+    padding-top: 100px;
+    padding-right: 30px;
+    padding-left: 130px;
+    background: transparent;
+}
+
+.quote:after {
+    display: table;
+    clear: both;
+    content: '';
+}
+
+.quote p {
+    font-size: 2.1em;
+}
+
+.quote:before {
+    position: absolute;
+    top: 80px;
+    left: 45px;
+    width: 70px;
+    height: 70px;
+    content: '';
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIGlkPSJDYXBhXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IgoJIHZpZXdCb3g9IjAgMCAxOTEuMDI5IDE5MS4wMjkiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDE5MS4wMjkgMTkxLjAyOTsiIHhtbDpzcGFjZT0icHJlc2VydmUiPgo8cGF0aCBzdHlsZT0iZmlsbDojMDIwMjAyOyIgZD0iTTQ0LjMzLDg4LjQ3NHYxNS4zNzdoMzguNDE3djgyLjc0NUgwdi04Mi43NDVoMC4wMDJWODguNDc0YzAtMzEuMjI1LDguOTg0LTU0LjQxMSwyNi43MDQtNjguOTE4CglDMzguOTY0LDkuNTIxLDU0LjQ4LDQuNDMzLDcyLjgyNCw0LjQzM3Y0NC4zMjZDNjIuODY2LDQ4Ljc1OSw0NC4zMyw0OC43NTksNDQuMzMsODguNDc0eiBNMTgxLjEwNyw0OC43NTlWNC40MzMKCWMtMTguMzQzLDAtMzMuODU5LDUuMDg4LTQ2LjExNywxNS4xMjNjLTE3LjcyLDE0LjUwNy0yNi43MDUsMzcuNjk0LTI2LjcwNSw2OC45MTh2MTUuMzc3aDB2ODIuNzQ1aDgyLjc0NHYtODIuNzQ1aC0zOC40MTdWODguNDc0CglDMTUyLjYxMyw0OC43NTksMTcxLjE0OSw0OC43NTksMTgxLjEwNyw0OC43NTl6Ii8+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+Cjwvc3ZnPgo=);
+    background-repeat: no-repeat;
+}
+
+.author {
+    float: right;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.author:before {
+    margin-right: 5px;
+    content: '–';
+}
+
+.btn {
+    font-family: 'Open Sans';
+    font-size: 14px;
+    font-weight: 600;
+    padding: 10px;
+    cursor: pointer;
+    text-transform: uppercase;
+    border: 2px solid #111;
+    border-radius: 4px;
+    background: #fff;
+}
+
+.btn:hover,
+.btn:active,
+.btn:focus {
+    outline: none;
+}
+
+.btn:hover {
+    opacity: .9;
+    color: #fff;
+    background-color: #111;
+}
+
+.btn:active {
+    opacity: 1;
+}
+
+.quote-box-footer {
+    float: right;
+    margin-top: 30px;
+    padding-right: 30px;
+    padding-left: 130px;
+    width: 100%;
+}
+
+.text-alt-quote,
+.tweet-quote {
+    font-family: 'Open Sans';
+    color: #111;
+    font-size: 14px;
+    display: inline-block;
+    padding: 10px;
+    text-transform: uppercase;
+}
+.tweet-quote {
+    text-decoration: none;
+    background-color: #03A9F4;
+    border-radius: 4px;
+    color: #fff;
+    font-weight: bold;
+    min-width: 42px;
+    text-align: center;
+}
+.left {
+    float: left;
+}
+.right {
+    float: right;
+}
